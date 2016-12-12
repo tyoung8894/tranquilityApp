@@ -29,6 +29,15 @@
 		D84EC8421DF89BB70027021C /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = D84EC83A1DF89BB70027021C /* Yellow.png */; };
 		D84EC8451DF89CE60027021C /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = D84EC8441DF89CE60027021C /* Red.png */; };
 		D84EC8471DF89CEF0027021C /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = D84EC8461DF89CEF0027021C /* LightGreen.png */; };
+		D8BA4C581DFF44420079C539 /* blackCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C4F1DFF44420079C539 /* blackCircle.png */; };
+		D8BA4C591DFF44420079C539 /* greyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C501DFF44420079C539 /* greyCircle.png */; };
+		D8BA4C5A1DFF44420079C539 /* brownCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C511DFF44420079C539 /* brownCircle.png */; };
+		D8BA4C5B1DFF44420079C539 /* orangeCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C521DFF44420079C539 /* orangeCircle.png */; };
+		D8BA4C5C1DFF44420079C539 /* cyanCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C531DFF44420079C539 /* cyanCircle.png */; };
+		D8BA4C5D1DFF44420079C539 /* greenCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C541DFF44420079C539 /* greenCircle.png */; };
+		D8BA4C5E1DFF44420079C539 /* yellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C551DFF44420079C539 /* yellowCircle.png */; };
+		D8BA4C5F1DFF44420079C539 /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C561DFF44420079C539 /* redCircle.png */; };
+		D8BA4C601DFF44420079C539 /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BA4C571DFF44420079C539 /* blueCircle.png */; };
 		D8F29C0C1DFA3D2600BBB8B9 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F29C0B1DFA3D2600BBB8B9 /* ThirdViewController.swift */; };
 		D8F29C0E1DFA4F2D00BBB8B9 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = D8F29C0D1DFA4F2D00BBB8B9 /* eraser.png */; };
 		D8F29C101DFA535D00BBB8B9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F29C0F1DFA535D00BBB8B9 /* SettingsViewController.swift */; };
@@ -80,6 +89,15 @@
 		D84EC83A1DF89BB70027021C /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 		D84EC8441DF89CE60027021C /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
 		D84EC8461DF89CEF0027021C /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		D8BA4C4F1DFF44420079C539 /* blackCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackCircle.png; sourceTree = "<group>"; };
+		D8BA4C501DFF44420079C539 /* greyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyCircle.png; sourceTree = "<group>"; };
+		D8BA4C511DFF44420079C539 /* brownCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownCircle.png; sourceTree = "<group>"; };
+		D8BA4C521DFF44420079C539 /* orangeCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeCircle.png; sourceTree = "<group>"; };
+		D8BA4C531DFF44420079C539 /* cyanCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyanCircle.png; sourceTree = "<group>"; };
+		D8BA4C541DFF44420079C539 /* greenCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenCircle.png; sourceTree = "<group>"; };
+		D8BA4C551DFF44420079C539 /* yellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowCircle.png; sourceTree = "<group>"; };
+		D8BA4C561DFF44420079C539 /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
+		D8BA4C571DFF44420079C539 /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueCircle.png; sourceTree = "<group>"; };
 		D8F29C0B1DFA3D2600BBB8B9 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		D8F29C0D1DFA4F2D00BBB8B9 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
 		D8F29C0F1DFA535D00BBB8B9 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +190,15 @@
 		D84EC8431DF89BD90027021C /* colors */ = {
 			isa = PBXGroup;
 			children = (
+				D8BA4C4F1DFF44420079C539 /* blackCircle.png */,
+				D8BA4C501DFF44420079C539 /* greyCircle.png */,
+				D8BA4C511DFF44420079C539 /* brownCircle.png */,
+				D8BA4C521DFF44420079C539 /* orangeCircle.png */,
+				D8BA4C531DFF44420079C539 /* cyanCircle.png */,
+				D8BA4C541DFF44420079C539 /* greenCircle.png */,
+				D8BA4C551DFF44420079C539 /* yellowCircle.png */,
+				D8BA4C561DFF44420079C539 /* redCircle.png */,
+				D8BA4C571DFF44420079C539 /* blueCircle.png */,
 				D8F29C0D1DFA4F2D00BBB8B9 /* eraser.png */,
 				D84EC8461DF89CEF0027021C /* LightGreen.png */,
 				D84EC8441DF89CE60027021C /* Red.png */,
@@ -295,7 +322,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84EC8471DF89CEF0027021C /* LightGreen.png in Resources */,
+				D8BA4C5B1DFF44420079C539 /* orangeCircle.png in Resources */,
+				D8BA4C5A1DFF44420079C539 /* brownCircle.png in Resources */,
 				44DED3AC1DF5EAC1006E09DD /* rain-3.wav in Resources */,
+				D8BA4C591DFF44420079C539 /* greyCircle.png in Resources */,
 				44192FDD1DECB3D20039B23C /* LaunchScreen.storyboard in Resources */,
 				D84EC83C1DF89BB70027021C /* Blue.png in Resources */,
 				44DED3A81DF5E552006E09DD /* rainfall.gif in Resources */,
@@ -304,11 +334,17 @@
 				D84EC83D1DF89BB70027021C /* Brown.png in Resources */,
 				D84EC8401DF89BB70027021C /* Grey.png in Resources */,
 				D84EC83B1DF89BB70027021C /* Black.png in Resources */,
+				D8BA4C581DFF44420079C539 /* blackCircle.png in Resources */,
 				D84EC8421DF89BB70027021C /* Yellow.png in Resources */,
 				44192FDA1DECB3D20039B23C /* Assets.xcassets in Resources */,
+				D8BA4C5C1DFF44420079C539 /* cyanCircle.png in Resources */,
 				44192FD81DECB3D20039B23C /* Main.storyboard in Resources */,
 				D84EC83F1DF89BB70027021C /* DarkOrange.png in Resources */,
+				D8BA4C5D1DFF44420079C539 /* greenCircle.png in Resources */,
 				D84EC8451DF89CE60027021C /* Red.png in Resources */,
+				D8BA4C5F1DFF44420079C539 /* redCircle.png in Resources */,
+				D8BA4C5E1DFF44420079C539 /* yellowCircle.png in Resources */,
+				D8BA4C601DFF44420079C539 /* blueCircle.png in Resources */,
 				D8F29C0E1DFA4F2D00BBB8B9 /* eraser.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -127,7 +127,7 @@
                                             <constraint firstAttribute="width" constant="35" id="AN0-Bh-OLv"/>
                                             <constraint firstAttribute="height" constant="130" id="vEg-Yn-Bv9"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Red.png">
+                                        <state key="normal" title="Button" image="redCircle.png">
                                             <color key="titleColor" red="0.9882352941176471" green="0.0" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
@@ -139,7 +139,7 @@
                                             <constraint firstAttribute="width" constant="35" id="V7u-bN-jHT"/>
                                             <constraint firstAttribute="height" constant="130" id="mU8-sz-JZB"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Blue.png"/>
+                                        <state key="normal" title="Button" image="blueCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="dUC-j7-l7D"/>
                                         </connections>
@@ -149,7 +149,7 @@
                                             <constraint firstAttribute="width" constant="35" id="1vT-Pm-0Q5"/>
                                             <constraint firstAttribute="height" constant="130" id="LaD-IH-gaD"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Yellow.png"/>
+                                        <state key="normal" title="Button" image="yellowCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="sJq-Nw-gu1"/>
                                         </connections>
@@ -159,7 +159,7 @@
                                             <constraint firstAttribute="height" constant="130" id="r9r-8D-Hd0"/>
                                             <constraint firstAttribute="width" constant="35" id="rAi-wg-bWl"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="LightGreen.png"/>
+                                        <state key="normal" title="Button" image="greenCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="hw1-Y2-iWu"/>
                                         </connections>
@@ -169,7 +169,7 @@
                                             <constraint firstAttribute="height" constant="130" id="QD2-rC-riV"/>
                                             <constraint firstAttribute="width" constant="35" id="iuD-uy-9f5"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="LightBlue.png"/>
+                                        <state key="normal" title="Button" image="cyanCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="R4a-uT-HbC"/>
                                         </connections>
@@ -179,7 +179,7 @@
                                             <constraint firstAttribute="width" constant="35" id="OOd-By-NPY"/>
                                             <constraint firstAttribute="height" constant="130" id="Skn-if-O0V"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="DarkOrange.png"/>
+                                        <state key="normal" title="Button" image="orangeCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="7S8-Gs-rbb"/>
                                         </connections>
@@ -189,7 +189,7 @@
                                             <constraint firstAttribute="height" constant="130" id="5jZ-Ip-FxB"/>
                                             <constraint firstAttribute="width" constant="35" id="ete-fS-jMw"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Brown.png"/>
+                                        <state key="normal" title="Button" image="brownCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="2FB-3o-63h"/>
                                         </connections>
@@ -199,7 +199,7 @@
                                             <constraint firstAttribute="height" constant="130" id="EYo-BL-f3n"/>
                                             <constraint firstAttribute="width" constant="35" id="YXP-kB-2eQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Grey.png"/>
+                                        <state key="normal" title="Button" image="greyCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="xKc-1A-ReE"/>
                                         </connections>
@@ -209,7 +209,7 @@
                                             <constraint firstAttribute="height" constant="130" id="RzA-np-Jz8"/>
                                             <constraint firstAttribute="width" constant="35" id="Vxi-px-zGy"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="Black.png"/>
+                                        <state key="normal" title="Button" image="blackCircle.png"/>
                                         <connections>
                                             <action selector="colorPickerAction:" destination="cer-VB-46s" eventType="touchUpInside" id="h8R-ex-0yP"/>
                                         </connections>
@@ -422,17 +422,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Black.png" width="53" height="332"/>
-        <image name="Blue.png" width="53" height="332"/>
-        <image name="Brown.png" width="53" height="332"/>
-        <image name="DarkOrange.png" width="53" height="332"/>
-        <image name="Grey.png" width="53" height="332"/>
-        <image name="LightBlue.png" width="53" height="332"/>
-        <image name="LightGreen.png" width="53" height="332"/>
-        <image name="Red.png" width="53" height="332"/>
-        <image name="Yellow.png" width="53" height="332"/>
+        <image name="blackCircle.png" width="256" height="256"/>
+        <image name="blueCircle.png" width="600" height="600"/>
+        <image name="brownCircle.png" width="512" height="512"/>
+        <image name="cyanCircle.png" width="297" height="288"/>
+        <image name="greenCircle.png" width="256" height="256"/>
+        <image name="greyCircle.png" width="225" height="225"/>
+        <image name="orangeCircle.png" width="225" height="225"/>
+        <image name="redCircle.png" width="2000" height="2000"/>
+        <image name="yellowCircle.png" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wj8-cL-uJy"/>
+        <segue reference="ipT-2j-Jiw"/>
     </inferredMetricsTieBreakers>
 </document>

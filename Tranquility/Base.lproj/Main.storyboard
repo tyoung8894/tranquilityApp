@@ -199,6 +199,13 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9p-LA-Wer">
+                                <gestureRecognizers/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="b8X-f8-7ak" kind="show" id="Ht4-Xd-7n6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -210,6 +217,8 @@
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="leading" secondItem="z6I-7h-1pj" secondAttribute="leading" id="C1t-NG-51A"/>
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="top" secondItem="alz-d4-ttM" secondAttribute="bottom" constant="8" id="GSW-22-wzh"/>
                             <constraint firstItem="alz-d4-ttM" firstAttribute="top" secondItem="Ku7-6A-0wA" secondAttribute="bottom" constant="2" id="J0a-j9-P4P"/>
+                            <constraint firstItem="Ku7-6A-0wA" firstAttribute="leading" secondItem="k9p-LA-Wer" secondAttribute="trailing" constant="-50" id="PB7-Pd-wpM"/>
+                            <constraint firstItem="Ku7-6A-0wA" firstAttribute="top" secondItem="k9p-LA-Wer" secondAttribute="bottom" constant="-58" id="QLi-Eq-bSv"/>
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="top" secondItem="Ku7-6A-0wA" secondAttribute="bottom" constant="55" id="hWF-Th-0lq"/>
                             <constraint firstAttribute="trailing" secondItem="Ku7-6A-0wA" secondAttribute="trailing" id="hjg-xs-en6"/>
                             <constraint firstItem="Ku7-6A-0wA" firstAttribute="leading" secondItem="z6I-7h-1pj" secondAttribute="leading" id="i9X-lo-9hF"/>
@@ -224,11 +233,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NS4-hW-gCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="1KQ-5Q-S0F">
-                    <connections>
-                        <segue destination="b8X-f8-7ak" kind="presentation" modalTransitionStyle="crossDissolve" id="ipT-2j-Jiw"/>
-                    </connections>
-                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="1KQ-5Q-S0F"/>
             </objects>
             <point key="canvasLocation" x="1452" y="128.18590704647679"/>
         </scene>
@@ -414,6 +419,6 @@
         <image name="yellowCircle.png" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ipT-2j-Jiw"/>
+        <segue reference="Ht4-Xd-7n6"/>
     </inferredMetricsTieBreakers>
 </document>

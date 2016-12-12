@@ -53,11 +53,9 @@ class ThirdViewController: UIViewController, UpdateSettingsDelegate {
         colors = [(255,0,0), //red
                   (14,0,255), //blue
                   (254,255,10), //yellow
-                  (92,255,9), //green
-                  (61,201,255), //light blue
-                  (252,97,7), //orange
-                  (142,63,34), //brown
-                  (104,104,104), //grey
+                  (15,112,3), //green
+                  (253,148,10), //orange
+                  (131,57,2), //brown
                   (0,0,0)] //black
         
         addEraser()

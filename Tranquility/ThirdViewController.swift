@@ -6,6 +6,10 @@
 //  Copyright © 2016 Tyler Young and Mark Malburg. All rights reserved.
 //
 
+//Code borrowed from "Build a Drawing App with Swift3 & iOS10" by Sandy Ludosky
+//https://www.skillshare.com/classes/technology/Build-a-Drawing-App-with-Swift3-iOS10/1131171117/classroom/discussions?enrolledRedirect=1
+
+
 import UIKit
 
 class ThirdViewController: UIViewController, UpdateSettingsDelegate {

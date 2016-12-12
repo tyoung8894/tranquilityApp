@@ -79,7 +79,7 @@
                         <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="crossDissolve" id="yOg-SL-vV7"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="right" id="WR8-Lo-aTM">
+                <swipeGestureRecognizer direction="left" id="WR8-Lo-aTM">
                     <connections>
                         <segue destination="cer-VB-46s" kind="presentation" modalTransitionStyle="crossDissolve" id="721-zJ-h0Z"/>
                     </connections>
@@ -290,13 +290,13 @@
                                     <action selector="changeBrushWidth:" destination="NlG-2U-quF" eventType="valueChanged" id="7oU-aa-ESw"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="brush" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdY-LK-gFS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Brush" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BdY-LK-gFS">
                                 <frame key="frameInset" minX="16" minY="86" width="179" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="179" id="18J-YR-a1D"/>
                                     <constraint firstAttribute="height" constant="21" id="lmB-1Z-Yhj"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -322,8 +322,8 @@
                                     <constraint firstAttribute="width" constant="179" id="CWo-Dy-KgO"/>
                                     <constraint firstAttribute="height" constant="21" id="ybF-Xp-Ln4"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ljx-6o-afJ">
@@ -348,8 +348,8 @@
                                     <constraint firstAttribute="height" constant="21" id="6eU-3l-gZs"/>
                                     <constraint firstAttribute="width" constant="179" id="zJV-uK-8He"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1BR-x8-uds">
@@ -367,8 +367,8 @@
                                     <constraint firstAttribute="height" constant="21" id="RVM-oF-1aa"/>
                                     <constraint firstAttribute="width" constant="179" id="bnn-vm-HCZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -433,6 +433,6 @@
         <image name="Yellow.png" width="53" height="332"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ipT-2j-Jiw"/>
+        <segue reference="wj8-cL-uJy"/>
     </inferredMetricsTieBreakers>
 </document>

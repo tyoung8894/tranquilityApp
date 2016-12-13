@@ -206,17 +206,27 @@
                                     <segue destination="b8X-f8-7ak" kind="show" id="Ht4-Xd-7n6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OST-AV-7L2">
+                                <gestureRecognizers/>
+                                <state key="normal" title="Save Drawing"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lEC-MC-58r" appends="YES" id="MED-U6-R8T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="alz-d4-ttM" firstAttribute="centerX" secondItem="z6I-7h-1pj" secondAttribute="centerX" id="0tb-K7-Dzu"/>
                             <constraint firstItem="cri-rW-Aqt" firstAttribute="top" secondItem="aKH-dX-JFt" secondAttribute="bottom" id="1h7-Et-Na4"/>
+                            <constraint firstItem="Ku7-6A-0wA" firstAttribute="top" secondItem="OST-AV-7L2" secondAttribute="bottom" constant="-58" id="47K-dj-OyI"/>
                             <constraint firstAttribute="trailing" secondItem="aKH-dX-JFt" secondAttribute="trailing" id="7xZ-7s-CVi"/>
                             <constraint firstItem="Ku7-6A-0wA" firstAttribute="top" secondItem="z6I-7h-1pj" secondAttribute="top" id="BL1-AI-eQL"/>
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="leading" secondItem="z6I-7h-1pj" secondAttribute="leading" id="C1t-NG-51A"/>
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="top" secondItem="alz-d4-ttM" secondAttribute="bottom" constant="8" id="GSW-22-wzh"/>
+                            <constraint firstItem="OST-AV-7L2" firstAttribute="leading" secondItem="Ku7-6A-0wA" secondAttribute="trailing" constant="-110" id="H60-tV-Gwo"/>
                             <constraint firstItem="alz-d4-ttM" firstAttribute="top" secondItem="Ku7-6A-0wA" secondAttribute="bottom" constant="2" id="J0a-j9-P4P"/>
+                            <constraint firstItem="OST-AV-7L2" firstAttribute="leading" secondItem="k9p-LA-Wer" secondAttribute="trailing" constant="215" id="P3v-b6-kdi"/>
                             <constraint firstItem="Ku7-6A-0wA" firstAttribute="leading" secondItem="k9p-LA-Wer" secondAttribute="trailing" constant="-50" id="PB7-Pd-wpM"/>
                             <constraint firstItem="Ku7-6A-0wA" firstAttribute="top" secondItem="k9p-LA-Wer" secondAttribute="bottom" constant="-58" id="QLi-Eq-bSv"/>
                             <constraint firstItem="aKH-dX-JFt" firstAttribute="top" secondItem="Ku7-6A-0wA" secondAttribute="bottom" constant="55" id="hWF-Th-0lq"/>
@@ -234,6 +244,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NS4-hW-gCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="1KQ-5Q-S0F"/>
+                <tapGestureRecognizer id="lEC-MC-58r">
+                    <connections>
+                        <action selector="saveDrawing:" destination="cer-VB-46s" id="ZLM-ej-8cz"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1452" y="128.18590704647679"/>
         </scene>

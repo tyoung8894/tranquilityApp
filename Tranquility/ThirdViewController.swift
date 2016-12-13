@@ -176,8 +176,8 @@ class ThirdViewController: UIViewController, UpdateSettingsDelegate {
     }
     
 
-    @IBAction func saveDrawing(_ sender: UITapGestureRecognizer) {
-        
+    
+    @IBAction func saveDrawing(_ sender: UIBarButtonItem) {
         
         //convert the UIImageView to UIImage and save to Camera Roll
         UIGraphicsBeginImageContextWithOptions(padImageView.bounds.size, padImageView.isOpaque, 0.0)
@@ -193,8 +193,10 @@ class ThirdViewController: UIViewController, UpdateSettingsDelegate {
         padImageView.image = snapshotImageFromMyView
         
         UIImageWriteToSavedPhotosAlbum(snapshotImageFromMyView!, nil, nil, nil);
-    }
 
+    }
+        
+    
     /*
     // MARK: - Navigation
 
